@@ -12,6 +12,7 @@ App de inventario en **React + TypeScript** con:
 - **Reset**: restaura el mock original y **limpia `localStorage`**
 - **Undo**: deshace el último cambio (snapshot simple)
 - **UX mínima**: confirmación visual al guardar (toast)
+//pene
 
 ## Cómo correr
 
