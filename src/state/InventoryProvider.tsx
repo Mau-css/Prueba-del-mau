@@ -126,7 +126,7 @@ export function InventoryProvider({ children }: { children: React.ReactNode }) {
       });
       dispatch({ type: 'set_force_error_next_load', value: false });
     }
-  }, [state.forceErrorNextLoad]);
+  }, []);
 
   const reset = useCallback(() => {
     clearStoredItems();
